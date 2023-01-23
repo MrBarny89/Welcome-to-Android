@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         TextView textView = new TextView(this);
         textView.setText("Hello Android!");
         textView.setTextSize(22);
+
         setContentView(textView);
     }
 }
